@@ -16,6 +16,10 @@ A Flutter authentication app with products browsing feature, built with Clean Ar
 - Pull to refresh
 - Minimalistic black/white/gray theme
 
+## Demo
+
+https://github.com/user-attachments/assets/4a399209-18cd-4366-b578-df57d3d2fcd7
+
 ## Implementation Approach
 
 The app follows Clean Architecture with three layers: domain, data, and presentation. The domain layer defines pure abstractions (entities, repository contracts, usecases) with no framework dependencies. The data layer implements these contracts using Firebase Auth, Dio, and SharedPreferences. The presentation layer uses Cubit for state management, keeping UI logic reactive and testable.
